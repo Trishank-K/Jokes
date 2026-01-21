@@ -92,7 +92,7 @@ Now—go wild and give me five entirely unique jokes!
 };
 
 export const getStory = async (): Promise<Story[]> => {
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp-image-generation' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' });
 
   const prompt = `You are **StoryWeaver**, an AI designed to craft engaging and meaningful stories on demand.
 
